@@ -7,10 +7,10 @@ class  CalcPesoNaLua{
  
  double weight = 0;  // peso em inglês.
  double bodyMass = 61.0;  // mass corpórea em inglês
- final  double  gravityOnTheMoon = 1.6f; // tradução: gravidade na lua.
+ final  double  gravityOnTheMoon = 1.6; // tradução: gravidade na lua.
  
   weight = bodyMass * gravityOnTheMoon;
-  System.out.printf(weight + " Is the my weight on the moon!");
+  System.out.println(weight + " Is the my weight on the moon!");
  
  }
  
